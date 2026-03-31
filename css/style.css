@@ -8966,7 +8966,7 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
   width: 100%;
 }
 .banner-content{
-       margin-left: 10%;
+       margin-left: 0%;
 }
 .training_btn{
 	  padding-top: 5px;
@@ -9157,5 +9157,40 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
         max-width: 100%;
     }
 }
+.training-logo {
+	width: 51%;
+    margin-bottom: 30px;
+    background-color: #fff;
+    opacity: 0.9;
+}
 
+#MixItUp3F7D69 {
+  column-count: 3;
+  column-gap: 20px;
+}
 
+#MixItUp3F7D69 .project-block-two {
+  width: 100%;
+  display: inline-block;     /* IMPORTANT */
+  break-inside: avoid;       /* prevents cut */
+  margin-bottom: 20px;
+}
+
+#MixItUp3F7D69 img {
+  width: 100%;
+  height: auto;              /* keeps original ratio */
+  display: block;
+  border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+  #MixItUp3F7D69 {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 576px) {
+  #MixItUp3F7D69 {
+    column-count: 1;
+  }
+}
