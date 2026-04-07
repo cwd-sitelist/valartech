@@ -890,3 +890,29 @@
 		transform: translateY(-50%);
 	}
 }
+
+@media (min-width:320px) and (max-width:600px) {
+	.header-top .logo img{
+		height: 50px !important;
+
+	}
+	.value-list{
+		padding: 0px 13px;
+	}
+	.value-title{
+		padding: 0px 13px;
+	}
+	
+}
+@media (min-width:1024px) and (max-width:1080px) {
+	.header-top .logo img{
+		height: 43px !important;
+	}
+	
+}
+@media (min-width:768px) and (max-width:991px) {
+	.header-top .logo img{
+		height: 79px !important;
+	}
+	
+}

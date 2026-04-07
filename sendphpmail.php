@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 
-    $to = "info@valartech.co.in"; // Replace with your email address
+    $to = "sales@valartech.co.in"; // Replace with your email address
     $subject = "Valar Tech Contact Form ";
 
     // Collect form inputs
