@@ -31,7 +31,7 @@ $FromSubject=$_POST["subject"];
 $FromMessage=$_POST["message"];
 
 
-$address = "info@valartech.co.in";
+$address = "sales@valartech.co.in";
 
 
 $message = "

@@ -4199,7 +4199,7 @@ img{
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #222222;
+	background-color: #fff;
 	opacity: .90;
 	content: "";
 }
@@ -8360,15 +8360,16 @@ li.sub-tab a {
     letter-spacing: .01em;
     font-family:'Poppins' ;
     font-size: 14px;
+	font-weight: 600;
 }
 .header-top .single-header-right-info .text-box h3 {
     font-weight: 600;
     letter-spacing: .01em;
-    color: #ffffff;
+    color: #000;
     font-size: 18px;
 }
 .text-box a {
-    color: #fff;
+    color: #000;
 }
 .text-box a:hover{
 	color:#ea7a0d;
@@ -8404,7 +8405,7 @@ button.side-nav-toggler.side-nav-opener{
     padding: 3px 0;
 }
 .header-top .single-header-right-info .icon-box img{
-	filter: invert(1);
+	/* filter: invert(1); */
 }
 .header-navigation .container {
     position: relative;
@@ -8485,13 +8486,13 @@ display: table;
 }
 
 .header-top .logo {
-	padding-top: 5px;
+	/* padding-top: 5px; */
     padding-bottom: 15px;
     position: relative;
 }
 .header-top .header-right-info {
     padding: 28px 0;
-	background: #000;
+	background: #fff;
 	width: 70%;
 }
 .header-top {
@@ -8537,6 +8538,7 @@ background: linear-gradient(90deg, rgba(3,85,145,1) 1%, rgba(0,27,54,1) 95%); */
 }
 .header-top .logo img {
     position: relative;
+	height: 104px;
 }
 .header-navigation ul.navigation-box > li > ul.sub-menu {
     position: absolute;
@@ -8911,7 +8913,7 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
   letter-spacing: 0.5px;
   color:#fff;
   line-height: 1.3;
-  margin-bottom: 12px;
+  /* margin-bottom: 12px; */
 }
 
 /* Address paragraph */
@@ -8920,7 +8922,7 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
   line-height: 1.7;
   opacity: 0.9;
   margin-bottom: 10px;
-  color:#fff;
+  color:#000;
 }
 
 .academy-contact {
@@ -9192,5 +9194,186 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
 @media (max-width: 576px) {
   #MixItUp3F7D69 {
     column-count: 1;
+  }
+}
+
+
+/* CONTAINER */
+.course-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* TITLE */
+.course-title {
+  text-align: left;
+  font-size: 34px;
+  background: -webkit-linear-gradient(#f8b10a, #e4660d);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+  margin: 30px 0px 20px 0px;
+  
+}
+
+/* SUBTITLE */
+.course-subtitle {
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+/* COURSE ITEM */
+.course-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+/* ICON */
+.course-item .icon {
+  width: 60px;
+  margin-right: 15px;
+}
+
+.course-item .icon img {
+  width: 80%;
+  filter: invert(1);
+}
+
+/* CONTENT */
+.course-item h3 {
+  margin: 0 0 8px;
+  background: -webkit-linear-gradient(#f8b10a, #e4660d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 20px;
+}
+
+.course-item p {
+  margin: 3px 0;
+  color: #fff;
+  font-size: 15px;
+}
+
+/* ========================= */
+/* 📱 MOBILE RESPONSIVE */
+/* ========================= */
+@media (max-width: 768px) {
+
+  .course-title {
+    font-size: 26px;
+  }
+
+  .course-subtitle {
+    font-size: 14px;
+  }
+
+  .course-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .icon {
+    margin-bottom: 10px;
+  }
+
+  .icon img {
+    width: 45px;
+  }
+
+  .course-item h3 {
+    font-size: 18px;
+  }
+
+  .course-item p {
+    font-size: 14px;
+  }
+}
+
+/* ========================= */
+/* 📱 SMALL MOBILE */
+/* ========================= */
+@media (max-width: 480px) {
+
+  .course-section {
+    padding: 40px 15px;
+  }
+
+  .course-title {
+    font-size: 22px;
+  }
+
+  .course-item h3 {
+    font-size: 16px;
+  }
+
+  .course-item p {
+    font-size: 13px;
+  }
+}
+/* TITLE */
+.value-title {
+  text-align: left;
+ background: -webkit-linear-gradient(#f8b10a, #e4660d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 12px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  margin: 20px 0px;
+}
+
+/* LIST */
+.value-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+/* LIST ITEM */
+.value-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* RED DOT BULLET */
+.value-list li::before {
+  content: "➜";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: rgb(215, 108, 2);
+  font-size: 17px;
+}
+
+/* STRONG TEXT */
+.value-list strong {
+  font-weight: bold;
+}
+
+/* ================= */
+/* 📱 MOBILE */
+/* ================= */
+@media (max-width: 768px) {
+
+  .value-title {
+    font-size: 18px;
+  }
+
+  .value-list li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .value-list li {
+    font-size: 14px;
   }
 }
