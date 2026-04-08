@@ -2941,7 +2941,7 @@ img{
 
 .service-detail-section{
 	position:relative;
-	padding:120px 0px 80px;	
+	padding:40px 0px 40px;	
 	z-index: 9;
 	box-shadow: 0 9px 21px -10px rgb(215, 108, 2);
 }
@@ -4203,7 +4203,6 @@ img{
 	opacity: .90;
 	content: "";
 }
-
 #traning:before{
 	position: absolute;
 	left: 0;
@@ -9209,183 +9208,102 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
   }
 }
 
-
-/* CONTAINER */
-.course-container {
-  max-width: 1200px;
-  margin: auto;
-}
-
-/* TITLE */
 .course-title {
-  text-align: left;
-  font-size: 34px;
+  font-weight: bold;
+  font-size: 32px;
   background: -webkit-linear-gradient(#f8b10a, #e4660d);
   -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
-  margin: 30px 0px 20px 0px;
-  
+  -webkit-text-fill-color: transparent;
 }
 
-/* SUBTITLE */
 .course-subtitle {
-  text-align: left;
-  font-size: 16px;
+  font-size: 14px;
+  letter-spacing: 1px;
   color: #fff;
-  margin-bottom: 40px;
 }
 
-/* COURSE ITEM */
 .course-item {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 30px;
+  padding: 30px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: 0.3s;
 }
 
-/* ICON */
-.course-item .icon {
-  width: 60px;
-  margin-right: 15px;
+.course-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+.content h3{
+	font-size: 22px;
+	margin-bottom: 10px;
+	background: -webkit-linear-gradient(#f8b10a, #e4660d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.content  p{
+	font-size: 16px  !important;
+	color: #fff !important;
+	line-height: 1.6 !important;
 }
 
-.course-item .icon img {
-  width: 80%;
+.icon img {
+  width: 50px;
   filter: invert(1);
 }
 
-/* CONTENT */
-.course-item h3 {
-  margin: 0 0 8px;
+.value-section {
+  padding: 40px 0;
+
+}
+
+.value-title {
+  font-size: 28px;
+  font-weight: bold;
   background: -webkit-linear-gradient(#f8b10a, #e4660d);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.value-box {
+  border: 1px solid #ddd;
+  padding: 25px;
+  height: 100%;
+  transition: 0.3s;
+}
+
+.value-box strong {
   font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
 }
 
-.course-item p {
-  margin: 3px 0;
+.value-box:hover {
+  /* background: #000; */
   color: #fff;
-  font-size: 15px;
+  transform: translateY(-5px);
 }
 
-/* ========================= */
-/* 📱 MOBILE RESPONSIVE */
-/* ========================= */
-@media (max-width: 768px) {
+.value-box p{
+	 color: #fff !important;
+	 line-height: 1.5;
+	 font-size: 16px;
+}
+.course-container{
+	max-width: 1168px !important;
+	margin: 0 auto;
+    
+}
 
-  .course-title {
-    font-size: 26px;
-  }
-
-  .course-subtitle {
-    font-size: 14px;
-  }
-
+@media (max-width: 767px) {
   .course-item {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    margin: 15px 0;   /* top & bottom gap */
   }
-
-  .icon {
-    margin-bottom: 10px;
-  }
-
-  .icon img {
-    width: 45px;
-  }
-
-  .course-item h3 {
-    font-size: 18px;
-  }
-
-  .course-item p {
-    font-size: 14px;
-  }
+  .value-box {
+  border: 1px solid #ddd;
+  padding: 25px;
+  height: 100%;
+  transition: 0.3s;
+  margin: 15px 0; 
 }
-
-/* ========================= */
-/* 📱 SMALL MOBILE */
-/* ========================= */
-@media (max-width: 480px) {
-
-  .course-section {
-    padding: 40px 15px;
-  }
-
-  .course-title {
-    font-size: 22px;
-  }
-
-  .course-item h3 {
-    font-size: 16px;
-  }
-
-  .course-item p {
-    font-size: 13px;
-  }
-}
-/* TITLE */
-.value-title {
-  text-align: left;
- background: -webkit-linear-gradient(#f8b10a, #e4660d);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding: 12px;
-  font-size: 22px;
-  letter-spacing: 1px;
-  margin: 20px 0px;
-}
-
-/* LIST */
-.value-list {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-/* LIST ITEM */
-.value-list li {
-  position: relative;
-  padding-left: 25px;
-  margin-bottom: 15px;
-  font-size: 18px;
-  color: #fff;
-  line-height: 1.6;
-}
-
-/* RED DOT BULLET */
-.value-list li::before {
-  content: "➜";
-  position: absolute;
-  left: 0;
-  top: 0;
-  color: rgb(215, 108, 2);
-  font-size: 17px;
-}
-
-/* STRONG TEXT */
-.value-list strong {
-  font-weight: bold;
-}
-
-/* ================= */
-/* 📱 MOBILE */
-/* ================= */
-@media (max-width: 768px) {
-
-  .value-title {
-    font-size: 18px;
-  }
-
-  .value-list li {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 480px) {
-
-  .value-list li {
-    font-size: 14px;
-  }
 }
