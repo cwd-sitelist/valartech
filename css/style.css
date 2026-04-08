@@ -1437,7 +1437,7 @@ img{
 	bottom: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgba(0,0,0,0.40);
+	/* background-color: rgba(0,0,0,0.40); */
 	content: "";
 }
 
@@ -1588,7 +1588,8 @@ img{
 
 .banner-section-two .owl-nav {
 	position: absolute;
-	left: 25px;
+	/* left: 25px; */
+	right: 0px;
 	bottom: 50px;
 	z-index: 9;
 }
@@ -8498,7 +8499,7 @@ display: table;
 
 .header-top .logo {
 	/* padding-top: 5px; */
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
     position: relative;
 }
 .header-top .header-right-info {
