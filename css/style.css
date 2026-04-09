@@ -1424,12 +1424,46 @@ img{
 	background-size: cover;
     height: 100vh;
 }
-@media (min-width:320px) and (max-width:768px) {
+@media (min-width:320px) and (max-width:766px) {
  .banner-section-two .slide-item{
     background-size: contain;
     background-position: top center;
   }
+  .banner-section-two{
+	height: 210px!important;
+  }
+  .owl-nav {
+        top: 168px;
+        left: 1px!important;
+    }
 } 
+@media (min-width: 425px) and (max-width: 766px) {
+    .owl-nav {
+        top: 213px;
+        left: 10px !important;
+    }
+}
+@media (min-width: 375px) and (max-width: 423px) {
+    .owl-nav {
+        top: 168px;
+        left: 10px !important;
+    }
+}
+
+/* @media (min-width:768px) and (max-width:991px){
+	.banner-section-two .slide-item{
+    background-size: contain;
+    background-position: top center;
+  }
+  .banner-section-two{
+       height: 365px;
+  }
+      .owl-nav {
+        left: 15px;
+        bottom: 241px !important;
+    }
+ 
+} */
 
 
 
