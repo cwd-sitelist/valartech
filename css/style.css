@@ -1455,6 +1455,7 @@ img{
   .banner-section-two .slide-item{
 	      height: 100%;
    		   min-height: 218vh;
+		   width: 100%;
   }
 }
 
