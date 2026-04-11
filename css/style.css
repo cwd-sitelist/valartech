@@ -1426,15 +1426,13 @@ img{
     min-height: 100vh;
 
 }
-@media (min-width:1366px) and (max-width:1387px) {
+@media (min-width:1366px) and (max-width:1440px) {
 	  .banner-section-two .slide-item{
 	background-size: cover;
 	background-position: top center !important;
 	height: auto;
     min-height: 100vh;
-
   }
-	
 }
 
 @media (min-width:320px) and (max-width:766px) {
