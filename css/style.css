@@ -8991,6 +8991,7 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
   opacity: 0.9;
   margin-bottom: 10px;
   color:#000;
+  text-align: left;
 }
 
 .academy-contact {
@@ -9009,12 +9010,13 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
 
 /* Underline animation */
 .phone-link {
-  color: #ffffff;
+  color: #000;
   font-weight: 600;
   text-decoration: none;
   display: inline-flex;
   align-items: center;
   gap: 8px;
+  font-size: 17px;
   transition: color 0.3s ease;
 }
 
@@ -9037,9 +9039,16 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
 }
 .banner-content{
        margin-left: 0%;
+	    display: flex;
+      align-items: center;        /* vertical center */
+      justify-content: space-between;
+      gap: 20px;
+     flex-wrap: nowrap;
 }
 .training_btn{
-	  padding-top: 5px;
+	  padding-top: 15px;
+	display: flex;
+    justify-content: center;
 }
 #social-sidebar {
     left: 0;
@@ -9377,4 +9386,135 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
         background-color: #fff;
     }
 	
+}
+
+
+
+/* Container same as header */
+.auto-container {
+  width: 83%;
+  margin: 0 auto;
+}
+
+/* FLEX ROW */
+.top-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 15px 0;
+  background-color: #fff;
+}
+
+.label-2{
+	font-size: 20px;
+    color: #f57c00;
+    font-weight: 600;
+    text-align: left;
+
+}
+
+/* COMMON COLUMN */
+.col-box {
+  flex: 1;
+  text-align: center;
+}
+
+/* LOGO */
+.logo-box img {
+  padding-left: 15px;
+}
+
+/* PHONE */
+.phone-box p,
+.address-box p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.phone-box a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 400;
+}
+
+/* LABEL */
+.label {
+    font-size: 20px;
+    color: #f57c00;
+    font-weight: 600;
+    text-align: left;
+}
+
+/* ADDRESS ALIGN CENTER */
+.address-box {
+  text-align: center;
+ 
+}
+.address-box p {
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+/* BUTTON ALIGN RIGHT */
+.btn-box {
+  text-align: right;
+}
+
+
+
+
+/* ================== TABLET VIEW ================== */
+@media (max-width: 992px) {
+
+  .auto-container {
+    width: 95%;
+  }
+
+  .top-flex {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .col-box {
+    flex: 0 0 50%;   /* 2 columns */
+    text-align: center;
+  }
+
+  .btn-box {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .logo-box img {
+    padding-left: 0;
+    max-width: 100%;
+    height: auto;
+  }
+  .top-flex{
+	display: block;
+  }
+}
+@media (min-width:1024px) and (max-width:1080px) {
+	.auto-container {
+    width: 97%;
+    margin: 0 auto;
+}
+	
+}
+
+@media (min-width:1400px) and (max-width:1440px) {
+	.auto-container {
+    width: 88%;
+    margin: 0 auto;
+}
+}
+@media (min-width:1366px) and (max-width:1397px) {
+	.auto-container {
+    width: 93%;
+    margin: 0 auto;
+}
 }
