@@ -472,7 +472,7 @@
 	.header-top .logo {
 		width: 100%;
 		text-align: center;
-		padding: 15px 0px 36px 0px;
+		padding: 15px 0px 25px 0px;
 		
 		
 	}
@@ -893,7 +893,7 @@
 
 @media (min-width:320px) and (max-width:600px) {
 	.header-top .logo img{
-		height: 45px !important;
+		height: 62px !important;
         width: 225px !important; 
 
 	}
