@@ -472,7 +472,7 @@
 	.header-top .logo {
 		width: 100%;
 		text-align: center;
-		padding: 30px 0;
+		padding: 15px 0px 36px 0px;
 		
 		
 	}
@@ -894,7 +894,7 @@
 @media (min-width:320px) and (max-width:600px) {
 	.header-top .logo img{
 		height: 45px !important;
-        width: 190px !important;
+        width: 225px !important; 
 
 	}
 	.value-list{
