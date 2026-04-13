@@ -9401,7 +9401,7 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  /* gap: 20px; */
   padding: 15px 0;
   background-color: #fff;
 }
@@ -9422,8 +9422,13 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
 
 /* LOGO */
 .logo-box img {
-  padding-left: 15px;
+
+      width: 299px;
+    padding-left: 15px;
+    /* margin: 0px; */
+    height: 100px;
 }
+
 
 /* PHONE */
 .phone-box p,
