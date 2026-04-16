@@ -4175,7 +4175,7 @@ img{
 
 .contact-page-section .contact-info li{
 	position: relative;
-	padding: 5px 30px;
+	padding: 5px 2px;
 	padding-left: 70px;
 	box-shadow: 0 0 20px rgba(0,0,0,0.05);
 	margin-bottom: 10px;
@@ -5507,6 +5507,7 @@ img{
 	padding:40px 0px;
 	background:#252525;
 	box-shadow: 0 0 50px rgba(0,0,0,0.50);
+	text-align: center;
 }
 
 .clients-section .slide-item{
@@ -9524,3 +9525,11 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
     margin: 0 auto;
 }
 }
+
+.image-1 img{
+	width: 60px !important;
+	height: 60px !important;
+}
+
+
+
