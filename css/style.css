@@ -9022,7 +9022,7 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
 }
 
 .phone-link i {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .phone-link:hover {
@@ -9467,7 +9467,7 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
 
 /* BUTTON ALIGN RIGHT */
 .btn-box {
-  text-align: right;
+  text-align: center;
 }
 
 
@@ -9531,5 +9531,7 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
 	height: 60px !important;
 }
 
-
+.location-link:hover{
+	color: #000 !important;;
+}
 
