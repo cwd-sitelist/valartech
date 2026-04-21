@@ -2362,7 +2362,7 @@ img{
 .welcome-section{
 	position: relative;
 	text-align: center;
-	padding: 150px 0 60px;
+	padding: 90px 0 30px;
 }
 
 .welcome-section .sec-title{
@@ -9468,7 +9468,7 @@ li.tab-title-superb:hover a, li.tab-title-superb:hover {
 
 /* BUTTON ALIGN RIGHT */
 .btn-box {
-  text-align: center;
+  text-align: left;
 }
 
 
